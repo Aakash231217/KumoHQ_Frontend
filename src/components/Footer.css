@@ -34,3 +34,8 @@
     text-decoration: underline;
   }
   
+  .app-links img {
+    width: 100px;  /* Control the size of the images */
+    margin-top: 10px;
+  }
+  
