@@ -1,0 +1,33 @@
+.flex-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .vstack {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  button {
+    border-radius: 999px;
+    background-color: #ffe01b;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  /* Add additional CSS as needed for other elements */
+  

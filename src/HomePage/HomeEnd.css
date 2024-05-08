@@ -1,0 +1,80 @@
+.heading-container {
+    text-align: center;
+    width: 80%; /* Increased width for more horizontal space */
+    margin: 2rem auto 4rem; /* Reduced top margin and increased bottom margin */
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem; /* Added some space below the heading */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 2rem; /* Increased gap for more space between grid items */
+    width: 90%; /* Increased width to utilize more horizontal space */
+    margin: 2rem auto; /* Reduced vertical margin for tighter layout */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    align-items: center; /* Vertically center the content */
+    justify-content: start; /* Start aligning items from the beginning */
+    background: #fff; /* White background */
+    padding: 2rem; /* Increased padding for a more spacious feel */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Slightly deeper shadow for depth */
+    border-radius: 15px; /* Slightly larger radius for smoother corners */
+}
+
+.image-container {
+    flex: 1; /* Flex grow to use available space */
+    padding-right: 1rem; /* Added padding to separate image from text */
+}
+
+.image-container img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.info-container {
+    flex: 2; /* Larger flex grow for more text space */
+    text-align: left; /* Left align the text */
+}
+
+.info-container h2 { /* Style for titles if needed */
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.info-container p { /* Style for descriptions */
+    font-size: 1rem;
+    color: #666;
+}
+
+.action-button-container {
+    text-align: center;
+    width: 100%; /* Full width to center button properly */
+    padding-top: 1rem; /* Space above the button */
+}
+
+.action-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem; /* Increased padding for a larger button */
+    background-color: #ffe01b; /* Bright yellow for visibility */
+    color: black; /* Black text for contrast */
+    border-radius: 9999px; /* Rounded edges */
+    text-decoration: none;
+    font-weight: bold; /* Bold text */
+}
+
+.disclaimer-container {
+    background-color: #f6f6f4; /* Light grey background */
+    text-align: left; /* Left-aligned text */
+    margin-top: 4rem; /* More space above the disclaimer */
+    padding: 2rem; /* More internal padding */
+    font-size: 0.875rem; /* Small font size */
+    border-top: 1px solid #ccc; /* Top border for separation */
+}

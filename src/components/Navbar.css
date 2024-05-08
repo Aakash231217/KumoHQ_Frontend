@@ -1,0 +1,62 @@
+/* Ensures the navbar is fixed to the top of the viewport */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Sets a background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+    position: fixed; /* Keeps the navbar at the top */
+    width: 98%; /* Ensures it takes full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+  }
+  
+  .navbar-section {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Increases gap for better spacing */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px; /* Increases font size for better readability */
+    font-weight: 500; /* Makes font semi-bold */
+  }
+  
+  .nav-logo img {
+    height: 80px; /* Adjust based on your logo */
+  }
+  
+  .nav-select {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px; /* Sets a consistent font size */
+  }
+  
+  .nav-button {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: rgb(16, 14, 14);
+    background-color: rgb(230, 240, 240);
+    border-radius: 20px;
+    border: 1px solid black; /* Corrected border styling */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+    background-color: darkteal; /* Adjust color as needed, ensure 'darkteal' is a valid color or replace with hex code */
+}
+
+.nav-button:last-child {
+    background-color: #ffe01b;
+    margin-left: 10px; /* Adds margin for separation */
+}
+
+.nav-button:last-child:hover {
+    background-color: #ecc600; /* Darker yellow on hover */
+}

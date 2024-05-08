@@ -1,0 +1,70 @@
+.main-heading {
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .info-box {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #0000ff; /* Replace Chakra's borderColor */
+    text-align: left;
+  }
+  
+  .price-info {
+    margin-top: 4px;
+    font-size: 20px;
+  }
+  
+  .features-list {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .features-list li {
+    margin: 10px 0;
+  }
+  
+  .action-button {
+    border-radius: 999px;
+    background-color: #ffe01b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    margin: auto;
+    margin-top: 150px;
+    width: 65%;
+  }
+  
+  .image-feature-container {
+    margin-top: 55px;
+  }
+  
+  .half-width-image {
+    width: 50%;
+  }
+  
+  .info-text-box {
+    width: 50%;
+    background-color: #efeeea;
+    padding: 20px;
+  }
+  
+  .see-all-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
